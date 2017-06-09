@@ -27,8 +27,8 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Your disability information for cart'" + cartName + "that you've given" + disabilityInformation
-                + '\'' + "and chosen options for this card:" +
+        return "Your disability information for cart' " + cartName + " that you've given " + disabilityInformation
+                + '\'' + " and chosen options for this card: " +
                 ", guideDog=" + guideDog +
                 ", wheelChair=" + wheelChair +
                 ", foldingWheelchair=" + foldingWheelchair +
