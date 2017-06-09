@@ -84,7 +84,7 @@ public class LimitlessSpeechlet implements Speechlet {
     private SpeechletResponse getDetails() {
         try {
             Reader reader = new InputStreamReader
-                    (new URL("https://radiant-stream-52142.herokuapp.com/rest/client/foo/disabilities")
+                    (new URL("<Our Url>")
                             .openStream());
             Gson gson = new GsonBuilder().create();
             DataObject[] obj = gson.fromJson(reader, DataObject[].class);
