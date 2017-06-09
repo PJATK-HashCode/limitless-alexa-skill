@@ -65,7 +65,7 @@ public class LimitlessSpeechlet implements Speechlet {
 
     private SpeechletResponse getWelcomeResponse() {
 
-        String speechText = "Welcome in Limitless Skill. Please tell your client id";
+        String speechText = "Welcome in Limitless Skill";
 
         SimpleCard card = new SimpleCard();
         card.setTitle("WelcomeResponse");
