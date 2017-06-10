@@ -1,6 +1,5 @@
 package limitless;
 
-import java.util.List;
 
 /**
  * @author Lelental on 09.06.2017.
@@ -14,10 +13,9 @@ public class DataObject {
     private boolean foldingWheelchair;
     private boolean nonFoldingWheelChair;
     private boolean guideDogTravelWithYou;
-    private List<Item> item;
 
     public DataObject(String disabilityInformation, boolean guideDog, boolean wheelChair, boolean foldingWheelchair,
-                      boolean nonFoldingWheelChair, boolean guideDogTravelWithYou, List<Item> item, String cartName) {
+                      boolean nonFoldingWheelChair, boolean guideDogTravelWithYou, String cartName) {
         this.disabilityInformation = disabilityInformation;
         this.guideDog = guideDog;
         this.wheelChair = wheelChair;
@@ -25,7 +23,6 @@ public class DataObject {
         this.nonFoldingWheelChair = nonFoldingWheelChair;
         this.guideDogTravelWithYou = guideDogTravelWithYou;
         this.cartName = cartName;
-        this.item = item;
     }
 
     @Override

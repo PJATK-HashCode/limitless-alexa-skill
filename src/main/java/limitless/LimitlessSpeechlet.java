@@ -1,7 +1,6 @@
 package limitless;
 
 import com.amazon.speech.slu.Intent;
-import com.amazon.speech.slu.Slot;
 import com.amazon.speech.speechlet.*;
 import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.SimpleCard;
@@ -10,7 +9,6 @@ import com.google.gson.GsonBuilder;
 import org.jsoup.Jsoup;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import com.amazon.speech.speechlet.*;
 
 import java.io.InputStreamReader;
 import java.io.Reader;
