@@ -30,7 +30,8 @@ public class DataObject {
     @Override
     public String toString() {
 
-        return "Your disability information for cart '" + cartName + " that you've given is: " + disabilityInformation
+        return "Your disability information for cart '" + cartName
+                + " that you've given is: " + disabilityInformation
                 + '\'' + "your send medical information is: " + medicinesInformation
                 + " and chosen options for this card: "
                 + noneText
