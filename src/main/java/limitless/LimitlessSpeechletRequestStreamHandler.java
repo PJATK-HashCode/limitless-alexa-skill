@@ -13,7 +13,7 @@ public class LimitlessSpeechletRequestStreamHandler extends SpeechletRequestStre
 
     static {
         supportedApplicationIds = new HashSet<String>();
-        supportedApplicationIds.add("amzn1.ask.skill.4e013145-5d3f-454b-adbe-a8509f611300");
+        supportedApplicationIds.add("<OUR APP ID>");
 
     }
 
