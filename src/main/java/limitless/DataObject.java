@@ -40,7 +40,7 @@ public class DataObject {
     }
 
     private void setTexts() {
-        
+
         if (guideDog && guideDogTravelWithYou) {
             guideDogText = "dog assistant will be travel with you";
         } else {
@@ -53,7 +53,7 @@ public class DataObject {
         }
 
         if (!guideDog && !guideDogTravelWithYou && !guideIsNeeded) {
-            String noneText = "none";
+           noneText = "none";
         } else {
             noneText = "";
         }
